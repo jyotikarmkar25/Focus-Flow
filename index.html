@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>🔥 FocusFlow</header>
+    <div class="container">
+    <div class="section">
+        <h2>Pomodoro Timer</h2>
+        <div class="timer" id="timer">25:00</div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <div class="section">
+        <h2>Tasks</h2>
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <div class="section">
+        <h2>🔥 Streak: <span id="streak">0</span></h2>
+        <h3> 📊 Score: <span id="score">0</span></h3>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
