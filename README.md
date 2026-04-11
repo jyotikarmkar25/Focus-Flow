@@ -13,7 +13,7 @@ FocusFlow is a simple and effective productivity web app designed to help users 
 
 ### 📝 Task Manager
 - Add tasks easily
-- Mark tasks as completed
+- Click on a task to mark it as completed
 - Delete tasks
 
 ### 🔥 Streak System
